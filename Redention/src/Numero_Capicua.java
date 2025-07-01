@@ -3,12 +3,25 @@ import java.util.Scanner;
 public class Numero_Capicua {
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
-        int numero = 0;
-        System.out.println("Ingrese un numero entero");
-        // verificacion de si es un numero entero
-        do {
-            numero= scanner.nextInt();
-        } while (numero != 1 );
+        String entrada ;
+        int numero ;
+        System.out.println("Ingrese un numero entero"); // verificacion de si es un numero entero
+        while (true) {
+            entrada = scanner.nextLine();
+            try{
+                numero = Integer.parseInt(entrada);
+                break;// si lo puede comvertir a entero entonces rompe
+            }catch(NumberFormatException e){
+                System.out.println(" ERROR ");
+                System.out.println("---------------------------------------");
+                System.out.println("Ingreso No Valido");
+                System.out.println("----------------------------------------");
+                System.out.println("Intente De Nuevo");
+
+            }
+            
+        }
+        
         
 
         scanner.close();
