@@ -10,7 +10,7 @@ public class Numero_Capicua {
             entrada = scanner.nextLine();
             try{
                 numero = Integer.parseInt(entrada);
-                break;// si lo puede comvertir a entero entonces rompe
+                break;// si lo puede convertir a entero entonces rompe
             }catch(NumberFormatException e){
                 System.out.println(" ERROR ");
                 System.out.println("---------------------------------------");
@@ -22,8 +22,13 @@ public class Numero_Capicua {
             
         }
         
-        
+        int longitud ;
+        longitud = String.valueOf(Math.abs(numero)).length();
 
+        int[] cantidad_entero = new int[longitud];
+        for(int i=0;i<longitud;i++){
+            
+        }
         scanner.close();
 
     }
