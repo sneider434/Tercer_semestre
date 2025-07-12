@@ -1,0 +1,11 @@
+{
+    "java.project.sourcePaths": [
+        "Redention/src/Ejercicios_basicos",
+        "Redention/src",
+        "src/Ejercicios_basicos"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ]
+}
