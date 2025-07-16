@@ -17,7 +17,7 @@ public class Factorial {
             nume_c=  nume_b; // aqui se guarda el resultado de la multipliacion 
             nume_a= nume_c; // aqui se guarda de nuevo el resultado de la multiplicacion para usar en la variable de multiplicacion
         }
-        System.out.println(" el factorial de :"+ ( numero +1) + " es : "+ nume_c);
+        System.out.println(" el factorial de : "+ ( numero +1) + " es : "+ nume_c);
         scanner.close();
     }
 }
