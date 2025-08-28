@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 
 public class Numero_Lychrel  {
     public static void main(String[] args) {
@@ -27,10 +27,7 @@ public class Numero_Lychrel  {
                  numero_sumador+=numero_inverso;
             }
             
-           
-            
         }
-       
 
         scanner.close();
     }
