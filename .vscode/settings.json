@@ -1,8 +1,9 @@
 {
     "java.project.sourcePaths": [
+        "src/Ejercicios_basicos",
         "Redention/src/Ejercicios_basicos",
         "Redention/src",
-        "src/Ejercicios_basicos"
+        "src/Ejercicios_POO"
     ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
